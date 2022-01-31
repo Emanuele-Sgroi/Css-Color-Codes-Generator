@@ -1,0 +1,148 @@
+body{
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    width: 100%;
+    height: 100%;
+   background: linear-gradient(#f7a1a1, #ffffff ) no-repeat fixed;
+}
+
+
+h1{
+font: 600 3.5em 'Raleway', sans-serif;
+color: rgba(0, 0, 0, .5);
+text-align: center;
+text-transform: uppercase;
+letter-spacing: .5em;
+width: 100%;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    font-weight: 100;
+    
+    }
+
+.button{
+        background:none;
+        border:none;
+        color:rgba(0,0,0);
+        font-weight:300;
+        font-size:15px;
+    }
+
+.press{
+    background:linear-gradient(to bottom,rgb(255,252,97),rgba(240,238,144,0));
+    color:rgba(0,0,0,.8);
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+.buttonHover{
+    transition:0.3s;
+}
+
+.buttonHover:hover{
+    transform:translateY(-3px);
+    font-weight:700;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.window{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 600px;
+    height: 150px;
+    background-color:#D1C7C7 ;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.copyArea{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   position: relative;
+}
+
+.copyTextButton{
+   font: 600 14px 'Raleway', sans-serif;
+   width: 80px;
+   height: 45px; 
+   text-transform: uppercase;
+   background-color:#369AFF;
+   color: white;
+   border: 2px solid #000000;
+   border-radius: 5%;
+}
+
+.copyTextButton:hover{
+    transform: scale(1.03);
+}
+
+.copiedPop{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    text-transform: none;
+    letter-spacing: 0.09em;
+    font-size: 13px;
+    font-weight: 100;
+    background-color:rgb(51, 49, 49);
+    color: rgb(236, 235, 235);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.popup{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -80px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.popup.active{
+animation: popup 1s ease-in-out forwards;
+}
+
+@keyframes popup {
+    0%{
+        opacity: 0;
+        pointer-events: none;
+        transform: translate(0%, 20px);
+    }
+    40%{
+        opacity: 1;
+        pointer-events: auto;
+        transform: translate(0%, 0px);
+    }
+    80%{
+        opacity: 1;
+        pointer-events: auto;
+        transform: translate(0%, 0px);
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+        transform: translate(0%, 20px);
+    }
+}
+
