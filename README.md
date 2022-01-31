@@ -8,7 +8,7 @@ Note that this is a website that I create in a very short time responding a chal
 >>>> You can use it already
 
 You can use the desktop version of this website following the link of github. 
-https://github.com/Emanuele-Sgroi/Css-Color-Codes-Generator.git
+https://emanuele-sgroi.github.io/Css-Color-Codes-Generator/
 
 
 At the moment the only generator avaiable is the color gradient for back ground.
