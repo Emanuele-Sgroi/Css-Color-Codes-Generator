@@ -7,7 +7,11 @@ Note that this is a website that I create in a very short time responding a chal
 
 >>>> You can use it already
 
-You can use the desktop version of this website following the link of github. At the moment the only generator avaiable is the color gradient for back ground.
+You can use the desktop version of this website following the link of github. 
+https://github.com/Emanuele-Sgroi/Css-Color-Codes-Generator.git
+
+
+At the moment the only generator avaiable is the color gradient for back ground.
 
 I am looking forward to update as I really like the idea of making helpful generators for people who don't like much coding with CSS.
 
